@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+     color: rgb(29, 29, 178);
+    size: 1.2rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.leftSection {
+    width: 45%; /* Adjust width to allow space for the image */
+    float: left; /* Float the left section to allow text wrapping */
+    padding-right: 20px; /* Add padding to the right to create space between text and image */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.rightSection {
+    width: 55%; /* Adjust width to allow space for the image */
+}
+
+.firstSection>div {
+    width: 30%;
+    height: 340px;
+    margin-top: 80px;
+
+}
+
+
+.rightSection img {
+    width: 75%; /* Reduce width by 25% */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+}
+
+.purple {
+    color: rgb(150, 84, 211);
+}
+
+#element {
+    color: rgb(76, 76, 239);
+    font-size: x-large;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    padding-bottom: 0px;
+    margin-bottom: 0; 
+}
+
+.secondSection .profile {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.secondSection .textgray {
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+main hr {
+    bottom: 0;
+    background: rgb(49, 49, 232);
+    height: 1px;
+    margin:111px 84px;
+}
+
+.secondSection h1 {
+    font-size: 1.7rem;
+    height: 10vh;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.textgray {
+    color: gray;
+}
+
+.profile img {
+    width: 17%;
+    height: 150px;
+}
+
+footer {
+    background-color: rgb(81, 65, 95);
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer >div{
+    width: 233px;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color:grey;
+    padding:12px 12px;
+}
+
+.leftSection .btn{
+    padding:12px;
+    background-color: rgb(37, 4, 75);
+    color: white;
+    border:2px solid white;
+    border-radius: 3px;
+    font-size: 20px;
+    margin:40px 0;
+}
+.buttons {
+    margin-top: 20px; /* Add margin to separate buttons from the text */
+}
+
+.secondSection hr {
+    clear: both; /* Clear both left and right floats */
+    margin-top: 20px; /* Add margin to separate the line from the content */
+}

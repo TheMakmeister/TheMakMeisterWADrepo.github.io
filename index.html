@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Aaryan's Portfolio</div>   
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>     
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <h2>Namaskar, My name is <span class="purple">Aaryan, A.K.A. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The MakMeister</span></h2>
+                <p>and I am <span id="element"></span></p>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            
+            <div class="rightSection">
+                <img src="images/aaryan.jpg" alt="developer image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <div class="textgray">What I have done so far</div>
+            <h1>Work Experience</h1>
+            <div class="profile">
+                <img src="images/d2.png" alt=""><br><br>
+                <div class="desc">
+                    I am an Information Technology undergrad student at Pune Institute of Computer Technology. I am a tech enthusiast and a decent problem solver.
+                    I like to solve real-world problems by giving software solutions for such challenges.<br><br> I have made a website for aiding healthcare professionals, as well as medical patients, in keeping their respective medical information up-to-date, titled Medi-Vault.
+                    <br><br> I have also developed an e-commerce website, titled IndiCraft, for a platform that sells tech products as well as clothing items.<br><br> I am currently making a text-to-sign language app for the <b>Indian Government</b>. I also am in the process of designing a game using the Unreal Game Engine 5.1.<br>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Aaryan's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>OOP</li>
+                    <li>DSA</li>
+                    <li>DBMS</li>
+                    <li>CNS</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Linkedin</li>
+                    <li>Github</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Java</li>
+                    <li>C,CPP</li>
+                    <li>HTML,CSS,Javascript,React,Express,NodeJS</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            www.aaryansportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','MERN Enthusiast','Budding Game Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body> 
+</html>
